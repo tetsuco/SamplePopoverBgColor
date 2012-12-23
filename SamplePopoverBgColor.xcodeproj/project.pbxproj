@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10839A2A14D591B100EC482F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10839A2914D591B100EC482F /* UIKit.framework */; };
+		10839A2C14D591B100EC482F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10839A2B14D591B100EC482F /* Foundation.framework */; };
+		10839A2E14D591B100EC482F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10839A2D14D591B100EC482F /* CoreGraphics.framework */; };
+		10839A3414D591B100EC482F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10839A3214D591B100EC482F /* InfoPlist.strings */; };
+		10839A3614D591B100EC482F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10839A3514D591B100EC482F /* main.m */; };
+		10839A4F14D591EE00EC482F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10839A4B14D591EE00EC482F /* AppDelegate.m */; };
+		10839A5014D591EE00EC482F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10839A4D14D591EE00EC482F /* ViewController.m */; };
+		10839A5114D591EE00EC482F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10839A4E14D591EE00EC482F /* ViewController.xib */; };
+		10839A5614D5920D00EC482F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10839A5414D5920D00EC482F /* TableViewController.m */; };
+		10839A5714D5920D00EC482F /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10839A5514D5920D00EC482F /* TableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10839A2514D591B100EC482F /* SamplePopoverBgColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePopoverBgColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10839A2914D591B100EC482F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10839A2B14D591B100EC482F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10839A2D14D591B100EC482F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10839A3114D591B100EC482F /* SamplePopoverBgColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplePopoverBgColor-Info.plist"; sourceTree = "<group>"; };
+		10839A3314D591B100EC482F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10839A3514D591B100EC482F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10839A3714D591B100EC482F /* SamplePopoverBgColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamplePopoverBgColor-Prefix.pch"; sourceTree = "<group>"; };
+		10839A4A14D591EE00EC482F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10839A4B14D591EE00EC482F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10839A4C14D591EE00EC482F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10839A4D14D591EE00EC482F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10839A4E14D591EE00EC482F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		10839A5314D5920D00EC482F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		10839A5414D5920D00EC482F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		10839A5514D5920D00EC482F /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10839A2214D591B100EC482F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10839A2A14D591B100EC482F /* UIKit.framework in Frameworks */,
+				10839A2C14D591B100EC482F /* Foundation.framework in Frameworks */,
+				10839A2E14D591B100EC482F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10839A1A14D591B100EC482F = {
+			isa = PBXGroup;
+			children = (
+				10839A2F14D591B100EC482F /* SamplePopoverBgColor */,
+				10839A2814D591B100EC482F /* Frameworks */,
+				10839A2614D591B100EC482F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10839A2614D591B100EC482F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10839A2514D591B100EC482F /* SamplePopoverBgColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10839A2814D591B100EC482F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10839A2914D591B100EC482F /* UIKit.framework */,
+				10839A2B14D591B100EC482F /* Foundation.framework */,
+				10839A2D14D591B100EC482F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10839A2F14D591B100EC482F /* SamplePopoverBgColor */ = {
+			isa = PBXGroup;
+			children = (
+				10839A4914D591EE00EC482F /* Class */,
+				10839A3014D591B100EC482F /* Supporting Files */,
+			);
+			path = SamplePopoverBgColor;
+			sourceTree = "<group>";
+		};
+		10839A3014D591B100EC482F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10839A3114D591B100EC482F /* SamplePopoverBgColor-Info.plist */,
+				10839A3214D591B100EC482F /* InfoPlist.strings */,
+				10839A3514D591B100EC482F /* main.m */,
+				10839A3714D591B100EC482F /* SamplePopoverBgColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10839A4914D591EE00EC482F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				10839A4A14D591EE00EC482F /* AppDelegate.h */,
+				10839A4B14D591EE00EC482F /* AppDelegate.m */,
+				10839A5214D591FE00EC482F /* Popover */,
+				10839A4C14D591EE00EC482F /* ViewController.h */,
+				10839A4D14D591EE00EC482F /* ViewController.m */,
+				10839A4E14D591EE00EC482F /* ViewController.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		10839A5214D591FE00EC482F /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				10839A5314D5920D00EC482F /* TableViewController.h */,
+				10839A5414D5920D00EC482F /* TableViewController.m */,
+				10839A5514D5920D00EC482F /* TableViewController.xib */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10839A2414D591B100EC482F /* SamplePopoverBgColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10839A4314D591B100EC482F /* Build configuration list for PBXNativeTarget "SamplePopoverBgColor" */;
+			buildPhases = (
+				10839A2114D591B100EC482F /* Sources */,
+				10839A2214D591B100EC482F /* Frameworks */,
+				10839A2314D591B100EC482F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamplePopoverBgColor;
+			productName = SamplePopoverBgColor;
+			productReference = 10839A2514D591B100EC482F /* SamplePopoverBgColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10839A1C14D591B100EC482F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 10839A1F14D591B100EC482F /* Build configuration list for PBXProject "SamplePopoverBgColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10839A1A14D591B100EC482F;
+			productRefGroup = 10839A2614D591B100EC482F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10839A2414D591B100EC482F /* SamplePopoverBgColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10839A2314D591B100EC482F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10839A3414D591B100EC482F /* InfoPlist.strings in Resources */,
+				10839A5114D591EE00EC482F /* ViewController.xib in Resources */,
+				10839A5714D5920D00EC482F /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10839A2114D591B100EC482F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10839A3614D591B100EC482F /* main.m in Sources */,
+				10839A4F14D591EE00EC482F /* AppDelegate.m in Sources */,
+				10839A5014D591EE00EC482F /* ViewController.m in Sources */,
+				10839A5614D5920D00EC482F /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10839A3214D591B100EC482F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10839A3314D591B100EC482F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10839A4114D591B100EC482F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		10839A4214D591B100EC482F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10839A4414D591B100EC482F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePopoverBgColor/SamplePopoverBgColor-Prefix.pch";
+				INFOPLIST_FILE = "SamplePopoverBgColor/SamplePopoverBgColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10839A4514D591B100EC482F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePopoverBgColor/SamplePopoverBgColor-Prefix.pch";
+				INFOPLIST_FILE = "SamplePopoverBgColor/SamplePopoverBgColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10839A1F14D591B100EC482F /* Build configuration list for PBXProject "SamplePopoverBgColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10839A4114D591B100EC482F /* Debug */,
+				10839A4214D591B100EC482F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10839A4314D591B100EC482F /* Build configuration list for PBXNativeTarget "SamplePopoverBgColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10839A4414D591B100EC482F /* Debug */,
+				10839A4514D591B100EC482F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10839A1C14D591B100EC482F /* Project object */;
+}
